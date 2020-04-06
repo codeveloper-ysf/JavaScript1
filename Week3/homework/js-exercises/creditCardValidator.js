@@ -47,9 +47,9 @@ function cardCheck(cardNumber) {
         console.log(`${cardNumber} is NOT a valid card number.`);
 }
 
-cardCheck(9999777788880000);
-cardCheck(6666666666661666);
+cardCheck("9999777788880000");
+cardCheck("6666666666661666");
 cardCheck('a92332119c011112');
-cardCheck(4444444444444444);
-cardCheck(1111111111111110);
-cardCheck(6666666666666661);
+cardCheck("4444444444444444");
+cardCheck("1111111111111110");
+cardCheck("6666666666666661");
